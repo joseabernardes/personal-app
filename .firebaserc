@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "personal-app-547fa"
+  },
+  "targets": {
+    "personal-app-547fa": {
+      "hosting": {
+        "prod": [
+          "personal-app-547fa"
+        ]
+      }
+    }
   }
 }
