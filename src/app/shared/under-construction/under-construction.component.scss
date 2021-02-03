@@ -1,0 +1,35 @@
+/*
+ * *************************************************************************
+ *
+ * Copyright: José Bernardes, 2020 - 2021
+ *
+ * *************************************************************************
+ */
+
+$black: #333333;
+
+:host {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f3e5e2;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        flex: 2;
+        color: $black;
+        display: inline-flex;
+        align-items: flex-end;
+    }
+
+    h3 {
+        flex: 1;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+    }
+}
