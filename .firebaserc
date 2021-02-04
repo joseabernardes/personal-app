@@ -7,6 +7,9 @@
       "hosting": {
         "prod": [
           "personal-app-547fa"
+        ],
+        "staging": [
+          "staging-josebernardes"
         ]
       }
     }
