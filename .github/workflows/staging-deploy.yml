@@ -42,3 +42,8 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PERSONAL_APP_547FA }}'
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
+      - name: Create Release Tag
+        run: |
+          RELEASE_TAG="STAGE_$(date +'%Y-%m-%d')_$(env.GITHUB_RUN_NUMBER)"
+          git tag $RELEASE_TAG
+          git push -f origin $RELEASE_TAG
