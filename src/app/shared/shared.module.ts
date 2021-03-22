@@ -21,6 +21,9 @@ import {SocialLinksComponent} from './social-links/social-links.component';
     imports: [
         CommonModule,
     ],
+    exports: [
+        SocialLinksComponent,
+    ],
 })
 export class SharedModule {
 }
