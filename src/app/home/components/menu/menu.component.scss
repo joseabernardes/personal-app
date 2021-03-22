@@ -1,0 +1,57 @@
+/*
+ * *************************************************************************
+ *
+ * Copyright: José Bernardes, 2020 - 2021
+ *
+ * *************************************************************************
+ */
+
+@use "../../../../assets/styles/colors";
+
+:host {
+    display: block;
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 95%);
+    text-align: center;
+    padding: 3rem;
+    color: colors.$dark-grey;
+}
+
+.personal-info {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+
+    .avatar {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        box-shadow: 0 0.25rem 0.5rem 0.25rem colors.$light-grey;
+        margin-bottom: 0.5rem;
+    }
+}
+
+ul {
+    margin-top: .5rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+
+    li {
+        display: inline-block;
+        padding: 0.5rem;
+
+        a {
+            color: colors.$light-grey;
+
+            &.disabled {
+                font-style: italic;
+                cursor: not-allowed;
+                color: #888;
+            }
+
+            &:hover {
+                font-weight: 400;
+            }
+        }
+    }
+}
