@@ -1,10 +1,18 @@
+/*
+ * *************************************************************************
+ *
+ * Copyright: José Bernardes, 2020 - 2021
+ *
+ * *************************************************************************
+ */
+
 import {NgModule} from '@angular/core';
 import {
     RouterModule,
     Routes,
 } from '@angular/router';
 
-import {UnderConstructionComponent} from './shared/under-construction/under-construction.component';
+import {UnderConstructionComponent} from './core/pages/under-construction/under-construction.component';
 
 const routes: Routes = [
     {
