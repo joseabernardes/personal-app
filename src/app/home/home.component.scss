@@ -1,0 +1,21 @@
+/*
+ * *************************************************************************
+ *
+ * Copyright: José Bernardes, 2020 - 2021
+ *
+ * *************************************************************************
+ */
+
+@use "../../assets/styles/colors";
+
+:host {
+    display: flex;
+    flex-direction: column;
+    background: colors.$light-grey;
+    min-height: 100vh;
+}
+
+router-outlet + ::ng-deep * {
+    flex: 1;
+}
+

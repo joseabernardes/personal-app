@@ -12,9 +12,13 @@ import {CommonModule} from '@angular/common';
 import {HomeRoutingModule} from './home-routing.module';
 import {MenuComponent} from './components/menu/menu.component';
 import {SharedModule} from '../shared/shared.module';
+import {HomeComponent} from './home.component';
 
 @NgModule({
-    declarations: [MenuComponent],
+    declarations: [
+        MenuComponent,
+        HomeComponent,
+    ],
     imports: [
         CommonModule,
         HomeRoutingModule,
