@@ -12,13 +12,14 @@ import {
     Routes,
 } from '@angular/router';
 
-import {UnderConstructionComponent} from './core/pages/under-construction/under-construction.component';
-
 const routes: Routes = [
     {
         path: '',
-        component: UnderConstructionComponent,
+        redirectTo: 'home',
         pathMatch: 'full',
+    }, {
+        path: 'home',
+        loadChildren: async () => (await import('./home/home.module')).HomeModule,
     },
     {
         path: '**',
