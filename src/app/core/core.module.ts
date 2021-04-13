@@ -9,10 +9,8 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 
-import {UnderConstructionComponent} from './pages/under-construction/under-construction.component';
-
 @NgModule({
-    declarations: [UnderConstructionComponent],
+    declarations: [],
     imports: [
         CommonModule,
     ],
