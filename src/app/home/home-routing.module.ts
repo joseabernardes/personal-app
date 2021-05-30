@@ -13,6 +13,7 @@ import {
 } from '@angular/router';
 import {HomeComponent} from './home.component';
 import {MainComponent} from './pages/main/main.component';
+import {AboutComponent} from './pages/about/about.component';
 
 const routes: Routes = [
     {
@@ -22,6 +23,9 @@ const routes: Routes = [
             {
                 path: '',
                 component: MainComponent,
+            }, {
+                path: 'about',
+                component: AboutComponent,
             },
         ],
     },

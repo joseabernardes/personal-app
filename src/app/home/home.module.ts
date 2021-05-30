@@ -14,9 +14,11 @@ import {MenuComponent} from './components/menu/menu.component';
 import {SharedModule} from '../shared/shared.module';
 import {HomeComponent} from './home.component';
 import {MainComponent} from './pages/main/main.component';
+import {AboutComponent} from './pages/about/about.component';
 
 @NgModule({
     declarations: [
+        AboutComponent,
         MenuComponent,
         HomeComponent,
         MainComponent,
