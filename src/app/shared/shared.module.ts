@@ -11,10 +11,12 @@ import {CommonModule} from '@angular/common';
 
 import {IconComponent} from './icon/icon.component';
 import {SocialLinksComponent} from './social-links/social-links.component';
+import {ConsoleTextAnimationDirective} from './console-text-animation/console-text-animation.directive';
 
 
 @NgModule({
     declarations: [
+        ConsoleTextAnimationDirective,
         IconComponent,
         SocialLinksComponent,
     ],
@@ -22,6 +24,7 @@ import {SocialLinksComponent} from './social-links/social-links.component';
         CommonModule,
     ],
     exports: [
+        ConsoleTextAnimationDirective,
         SocialLinksComponent,
     ],
 })
