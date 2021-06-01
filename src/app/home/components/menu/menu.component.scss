@@ -41,16 +41,18 @@ ul {
         padding: 0.5rem;
 
         a {
-            color: colors.$light-grey;
-
             &.disabled {
                 font-style: italic;
                 cursor: not-allowed;
                 color: #888;
             }
 
-            &:hover {
+            &.active {
                 font-weight: 400;
+            }
+
+            &:hover {
+                font-weight: 500;
             }
         }
     }
