@@ -6,4 +6,6 @@
   ~ **************************************************************************
   -->
 <app-menu></app-menu>
-<router-outlet></router-outlet>
+<main [@fadeAnimation]="getRouterOutletState(outlet)">
+    <router-outlet #outlet="outlet"></router-outlet>
+</main>
