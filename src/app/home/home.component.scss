@@ -13,11 +13,15 @@
     flex-direction: column;
     background: colors.$light-grey;
     min-height: 100vh;
-}
 
-router-outlet + ::ng-deep * {
-    align-self: center;
-    flex: 1;
-    max-width: 900px;
-    width: 100%;
+    main {
+        flex: 1;
+        align-self: center;
+        max-width: 900px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
