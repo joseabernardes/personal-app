@@ -39,6 +39,7 @@ ul {
     li {
         display: inline-block;
         padding: 0.5rem;
+        user-select: none;
 
         a {
             &.disabled {
@@ -51,7 +52,7 @@ ul {
                 font-weight: 500;
             }
 
-            &:hover {
+            &:hover:not(&.disabled) {
                 font-weight: 700;
             }
         }
