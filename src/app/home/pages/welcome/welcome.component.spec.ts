@@ -11,21 +11,21 @@ import {
     TestBed,
 } from '@angular/core/testing';
 
-import {MainComponent} from './main.component';
+import {WelcomeComponent} from './welcome.component';
 
-describe('MainComponent', () => {
-    let component: MainComponent;
-    let fixture: ComponentFixture<MainComponent>;
+describe('WelcomeComponent', () => {
+    let component: WelcomeComponent;
+    let fixture: ComponentFixture<WelcomeComponent>;
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            declarations: [MainComponent],
+            declarations: [WelcomeComponent],
         })
             .compileComponents();
     });
 
     beforeEach(() => {
-        fixture = TestBed.createComponent(MainComponent);
+        fixture = TestBed.createComponent(WelcomeComponent);
         component = fixture.componentInstance;
         fixture.detectChanges();
     });

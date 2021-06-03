@@ -12,7 +12,7 @@ import {
     Routes,
 } from '@angular/router';
 import {HomeComponent} from './home.component';
-import {MainComponent} from './pages/main/main.component';
+import {WelcomeComponent} from './pages/welcome/welcome.component';
 import {AboutComponent} from './pages/about/about.component';
 
 const routes: Routes = [
@@ -22,7 +22,7 @@ const routes: Routes = [
         children: [
             {
                 path: '',
-                component: MainComponent,
+                component: WelcomeComponent,
             }, {
                 path: 'about',
                 component: AboutComponent,

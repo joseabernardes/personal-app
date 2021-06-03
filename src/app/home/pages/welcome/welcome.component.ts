@@ -9,11 +9,11 @@
 import {Component, OnInit} from '@angular/core';
 
 @Component({
-    selector: 'app-main',
-    templateUrl: './main.component.html',
-    styleUrls: ['./main.component.scss'],
+    selector: 'app-welcome',
+    templateUrl: './welcome.component.html',
+    styleUrls: ['./welcome.component.scss'],
 })
-export class MainComponent implements OnInit {
+export class WelcomeComponent implements OnInit {
 
     public message: string;
 
