@@ -13,7 +13,7 @@ import {HomeRoutingModule} from './home-routing.module';
 import {MenuComponent} from './components/menu/menu.component';
 import {SharedModule} from '../shared/shared.module';
 import {HomeComponent} from './home.component';
-import {MainComponent} from './pages/main/main.component';
+import {WelcomeComponent} from './pages/welcome/welcome.component';
 import {AboutComponent} from './pages/about/about.component';
 
 @NgModule({
@@ -21,7 +21,7 @@ import {AboutComponent} from './pages/about/about.component';
         AboutComponent,
         MenuComponent,
         HomeComponent,
-        MainComponent,
+        WelcomeComponent,
     ],
     imports: [
         CommonModule,
