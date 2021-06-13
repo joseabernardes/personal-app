@@ -1,0 +1,12 @@
+<!--
+  ~ **************************************************************************
+  ~
+  ~ Copyright: José Bernardes, 2020 - 2021
+  ~
+  ~ **************************************************************************
+  -->
+<div *ngFor="let groupedSkill of groupedSkills">
+    <h1>{{groupedSkill.type}}</h1>
+    <app-skill *ngFor="let skill of groupedSkill.skills"
+               [skill]="skill"></app-skill>
+</div>
