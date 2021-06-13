@@ -1,0 +1,14 @@
+<!--
+  ~ **************************************************************************
+  ~
+  ~ Copyright: José Bernardes, 2020 - 2021
+  ~
+  ~ **************************************************************************
+  -->
+<span>{{skill.name}}</span>
+<div class="progress">
+    <div class="progress-value"
+         [ngStyle]="{width: width + '%', background: background}">
+        {{rounded ? '&#8776;' : '+'}} {{years}} years
+    </div>
+</div>
