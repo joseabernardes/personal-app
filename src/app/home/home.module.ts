@@ -15,12 +15,14 @@ import {SharedModule} from '../shared/shared.module';
 import {HomeComponent} from './home.component';
 import {WelcomeComponent} from './pages/welcome/welcome.component';
 import {AboutComponent} from './pages/about/about.component';
+import {SkillComponent} from './components/skill/skill.component';
 
 @NgModule({
     declarations: [
         AboutComponent,
         MenuComponent,
         HomeComponent,
+        SkillComponent,
         WelcomeComponent,
     ],
     imports: [
