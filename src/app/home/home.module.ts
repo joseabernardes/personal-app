@@ -16,6 +16,7 @@ import {HomeComponent} from './home.component';
 import {WelcomeComponent} from './pages/welcome/welcome.component';
 import {AboutComponent} from './pages/about/about.component';
 import {SkillComponent} from './components/skill/skill.component';
+import {SkillsComponent} from './pages/skills/skills.component';
 
 @NgModule({
     declarations: [
@@ -23,6 +24,7 @@ import {SkillComponent} from './components/skill/skill.component';
         MenuComponent,
         HomeComponent,
         SkillComponent,
+        SkillsComponent,
         WelcomeComponent,
     ],
     imports: [
