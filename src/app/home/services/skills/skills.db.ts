@@ -45,7 +45,6 @@ export const SKILLS: RowSkill[] = [
     {
         name: 'Sass',
         type: SkillType.FrontEnd,
-        // color: '#ce649a',
         color: ['#c9438a', '#c96095'],
         periods: [
             {
@@ -56,7 +55,7 @@ export const SKILLS: RowSkill[] = [
     {
         name: 'RxJS',
         type: SkillType.FrontEnd,
-        color: ['#4e3b4f', '#db038e'],
+        color: ['#4e3b4f', '#745875'],
         periods: [
             {
                 startDate: new Date(2020, 7, 1),
@@ -97,7 +96,7 @@ export const SKILLS: RowSkill[] = [
     {
         name: 'Python',
         type: SkillType.BackEnd,
-        color: ['#3869a1', '#f7d045'],
+        color: ['#3869a1', '#4d78a9'],
         periods: [
             {
                 startDate: new Date(2019, 1, 1),
