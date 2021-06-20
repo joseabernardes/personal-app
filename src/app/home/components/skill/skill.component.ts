@@ -47,7 +47,6 @@ export class SkillComponent implements OnInit {
         this.years = years;
         this.rounded = rounded;
         this.background = this._getBackground();
-        console.log(this.background);
 
         this._changeDetectorRef.detectChanges();
     }
