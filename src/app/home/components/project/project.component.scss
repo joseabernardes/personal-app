@@ -1,0 +1,53 @@
+/*!
+ * *************************************************************************
+ *
+ * Copyright: José Bernardes, 2020 - 2021
+ *
+ * *************************************************************************
+ */
+
+:host {
+    display: grid;
+    grid-template: "images"
+                    "description"
+                    / 1fr;
+    column-gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    :host {
+        grid-template: "images description"
+                  / 2fr 1fr;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+
+.images {
+    grid-area: images;
+}
+
+
+.description {
+    grid-area: description;
+
+    h2 {
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    p {
+        line-height: 1.5;
+
+        app-technology-badge:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+}
