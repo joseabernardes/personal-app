@@ -18,6 +18,7 @@ import {AboutComponent} from './pages/about/about.component';
 import {SkillComponent} from './components/skill/skill.component';
 import {SkillsComponent} from './pages/skills/skills.component';
 import {ProjectComponent} from './components/project/project.component';
+import {ProjectsComponent} from './pages/projects/projects.component';
 
 @NgModule({
     declarations: [
@@ -28,6 +29,7 @@ import {ProjectComponent} from './components/project/project.component';
         SkillsComponent,
         WelcomeComponent,
         ProjectComponent,
+        ProjectsComponent,
     ],
     imports: [
         CommonModule,

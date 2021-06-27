@@ -1,0 +1,25 @@
+/*
+ * *************************************************************************
+ *
+ * Copyright: José Bernardes, 2020 - 2021
+ *
+ * *************************************************************************
+ */
+
+@use "src/assets/styles/dimensions";
+
+.project {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+
+    &:nth-child(2n) {
+        background: white;
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+    }
+
+    & > * {
+        @include dimensions.medium-container();
+        align-self: center;
+    }
+}
