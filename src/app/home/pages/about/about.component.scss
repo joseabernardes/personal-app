@@ -6,8 +6,12 @@
  * *************************************************************************
  */
 
+@use "src/assets/styles/dimensions";
+
 :host {
+    @include dimensions.small-container();
     text-align: justify;
+    flex: 1;
 }
 
 p {

@@ -6,7 +6,10 @@
  * *************************************************************************
  */
 
+@use "src/assets/styles/dimensions";
+
 :host {
+    @include dimensions.small-container();
     display: flex;
     flex-direction: column;
     align-items: center;
