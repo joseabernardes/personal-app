@@ -6,19 +6,19 @@
  * *************************************************************************
  */
 
+@use "src/assets/styles/dimensions";
+
+$column-dimension: dimensions.$small-container / 2;
+
 :host {
+    @include dimensions.small-container();
     flex: 1;
     display: grid;
-    grid-template: "first"
-                       "last"
-                       / 1fr;
+    grid-template: "first" "last" / minmax(auto, $column-dimension);
     column-gap: 1rem;
-}
 
-@media (min-width: 768px) {
-    :host {
-        grid-template: "first last"
-                  / 1fr 1fr;
+    @media (min-width: 768px) {
+        grid-template: "first last" / minmax(auto, $column-dimension) minmax(auto, $column-dimension);
     }
 }
 
@@ -37,3 +37,5 @@ app-skill {
 app-skill + app-skill {
     margin-top: 0.75rem;
 }
+
+//}
