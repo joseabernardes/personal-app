@@ -1,0 +1,20 @@
+/*
+ * *************************************************************************
+ *
+ * Copyright: José Bernardes, 2020 - 2021
+ *
+ * *************************************************************************
+ */
+
+$small-container: 900px;
+$medium-container: 1024px;
+
+@mixin small-container() {
+    width: 100%;
+    max-width: $small-container;
+}
+
+@mixin medium-container() {
+    width: 100%;
+    max-width: $small-container;
+}
