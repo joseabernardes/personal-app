@@ -8,6 +8,7 @@ import {
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
+import {environment} from '../environments/environment';
 
 @NgModule({
     declarations: [
@@ -17,7 +18,7 @@ import {AppComponent} from './app.component';
         BrowserAnimationsModule,
         BrowserModule,
         AppRoutingModule,
-        NgxGoogleAnalyticsModule.forRoot('G-J635NMKTWD'),
+        NgxGoogleAnalyticsModule.forRoot(environment.analyticsToken),
         NgxGoogleAnalyticsRouterModule,
     ],
     providers: [],
