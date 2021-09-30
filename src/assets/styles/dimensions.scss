@@ -12,9 +12,11 @@ $medium-container: 1024px;
 @mixin small-container() {
     width: 100%;
     max-width: $small-container;
+    padding: 0 3rem;
 }
 
 @mixin medium-container() {
     width: 100%;
     max-width: $small-container;
+    padding: 0 3rem;
 }

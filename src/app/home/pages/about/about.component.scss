@@ -12,6 +12,7 @@
     @include dimensions.small-container();
     text-align: justify;
     flex: 1;
+    align-self: center;
 }
 
 p {
