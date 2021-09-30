@@ -12,10 +12,12 @@ $column-dimension: dimensions.$small-container / 2;
 
 :host {
     @include dimensions.small-container();
+    width: auto;
     flex: 1;
     display: grid;
     grid-template: "first" "last" / minmax(auto, $column-dimension);
     column-gap: 1rem;
+    align-self: center;
 
     @media (min-width: 768px) {
         grid-template: "first last" / minmax(auto, $column-dimension) minmax(auto, $column-dimension);
