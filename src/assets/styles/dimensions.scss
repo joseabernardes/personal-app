@@ -17,6 +17,6 @@ $medium-container: 1024px;
 
 @mixin medium-container() {
     width: 100%;
-    max-width: $small-container;
+    max-width: $medium-container;
     padding: 0 3rem;
 }
