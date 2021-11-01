@@ -28,7 +28,11 @@ export class IconComponent {
     public color: string;
 
     @Input()
-    public size: number;
+    public width: number;
+
+    @Input()
+    public height: number;
+
 
     public iconName;
 }
