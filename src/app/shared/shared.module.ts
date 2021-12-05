@@ -12,6 +12,7 @@ import {CommonModule} from '@angular/common';
 import {IconComponent} from './icon/icon.component';
 import {SocialLinksComponent} from './social-links/social-links.component';
 import {ConsoleTextAnimationDirective} from './console-text-animation/console-text-animation.directive';
+import {TechnologyBadgeComponent} from './technology-badge/technology-badge.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import {ConsoleTextAnimationDirective} from './console-text-animation/console-te
         ConsoleTextAnimationDirective,
         IconComponent,
         SocialLinksComponent,
+        TechnologyBadgeComponent,
     ],
     imports: [
         CommonModule,
@@ -26,6 +28,7 @@ import {ConsoleTextAnimationDirective} from './console-text-animation/console-te
     exports: [
         ConsoleTextAnimationDirective,
         SocialLinksComponent,
+        TechnologyBadgeComponent,
     ],
 })
 export class SharedModule {
