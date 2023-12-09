@@ -6,6 +6,13 @@
  * *************************************************************************
  */
 
+:host {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background: white;
+}
+
 a + a {
     margin-left: 0.25rem;
 }
