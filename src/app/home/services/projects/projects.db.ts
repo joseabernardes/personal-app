@@ -23,7 +23,7 @@ export const PROJECTS: Project[] = [
     {
         name: 'Around Tâmega e Sousa',
         description: 'A mobile application for managing points of interest in the Tâmega e Sousa Intermunicipal Community.\n',
-        mainImage: '/assets/images/around-tamega-e-sousa.png',
+        mainImage: '/assets/images/around-tamega-e-sousa.webp',
         technologies: [
             TechnologyType.Android,
             TechnologyType.Firebase,
