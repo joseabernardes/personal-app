@@ -17,11 +17,14 @@ export class WelcomeComponent implements OnInit {
 
     public message: string;
 
-    private _messages = [
+    private _messages: string [] = [
         'Welcome to my Portfolio.',
         'Welcome aboard.',
         'It\'s a pleasure to have you here!',
         'Hi, it\'s nice to see you here.',
+        'Hello world! Welcome to my creative hub',
+        'Hello there! Ready to dive into my portfolio?',
+        'A warm welcome to my corner of the internet!',
     ];
 
     ngOnInit(): void {
